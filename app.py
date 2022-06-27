@@ -37,6 +37,10 @@ app.layout = html.Div(children=[
                 dcc.Input(id='SingleFam', value=0, type='number', min=0, max=1, step=1),
                 html.Div('Large Neighborhood:'),
                 dcc.Input(id='LargeNeighborhood', value=0, type='number', min=0, max=1, step=1),
+                html.Div('Single Story:'),
+                dcc.Input(id='SingleStory', value=0, type='number', min=0, max=1, step=1),
+                html.Div('Year Remodeled:'),
+                dcc.Input(id='YearRemodAdd', value=2010, type='number', min=2006, max=2010, step=1),
 
             ], className='four columns'),
             html.Div([
